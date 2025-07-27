@@ -1,0 +1,11 @@
+# Java class files
+*.class
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+
+#Properties Files
+*.properties
