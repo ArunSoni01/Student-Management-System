@@ -53,3 +53,21 @@ db.password=your_mysql_password
 ```
 💡 Replace your_mysql_username and your_mysql_password with your actual credentials.
 
+---
+## 🧪 How to Run
+1. Import the project into IntelliJ, VS Code or Eclipse
+
+2. Make sure MySQL is running and jdbc_practice DB exists
+
+3. Add MySQL JDBC driver:
+    - Maven dependency:
+        ```
+        <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.29</version>
+        </dependency>
+        ```
+    - Or manually add the .jar file
+
+4. Run the Main class and follow the menu
